@@ -1,5 +1,5 @@
 const express = require('express'),
-     http = require('http');
+    http = require('http');
 
 const hostname = 'localhost';
 const port = 3000;
@@ -11,8 +11,8 @@ app.use(morgan('dev'));
 
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
-const dishRouter = require('./routes/dishRouter');
 
+const dishRouter = require('./routes/dishRouter');
 app.use('/dishes', dishRouter);
 app.use((req, res, next) => {
   console.log(req.headers);
