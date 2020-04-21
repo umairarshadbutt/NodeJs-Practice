@@ -23,7 +23,7 @@ dishRouter.route('/')
     .delete((req, res, next) => {
     res.end('Deleting all the dishes');
 });
-dishRouter.route('/:dishId').all(function(req, res, next) {
+    dishRouter.route('/:dishId').all(function(req, res, next) {
     res.writeHead(200, { 'Content-Type': 'type/plain' });
     next();
 })
@@ -33,6 +33,9 @@ dishRouter.route('/:dishId').all(function(req, res, next) {
     .put(function(req, res, next) {
         res.write('Updating the dish: '+ req.params.dishId + '.\n');
         res.end('Will update the dish: ' + req.body.name + ' with details: ' + req.body.description);
+    })
+    .post((req, res, next) => {
+       res.end('Will not add the leaders');
     })
     .delete(function(req, res, next) {
         res.end('Deleting dish: ' + req.params.dishId);

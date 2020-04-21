@@ -14,10 +14,15 @@ app.use(express.static(__dirname + '/public'));
 
 const dishRouter = require('./routes/dishRouter');
 app.use('/dishes', dishRouter);
+const leaderRouter = require('./routes/leaders');
+app.use('/leadership', leaderRouter);
+
+const promoRouter = require('./routes/promoRouter');
+app.use('/promotions', promoRouter);
 app.use((req, res, next) => {
   console.log(req.headers);
   res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
+  res.setHeader('Content-Type', 'text/plain');
   res.end('<html><body><h1>This is an Express Server</h1></body></html>');
 
 });
