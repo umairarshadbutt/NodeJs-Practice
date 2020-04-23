@@ -40,7 +40,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736481fd-1852-4411-8d31-fa1d8b926ddf" name="Default Changelist" comment="" />
+    <list default="true" id="736481fd-1852-4411-8d31-fa1d8b926ddf" name="Default Changelist" comment="Node MongoDB Example 1">
+      <change beforePath="$PROJECT_DIR$/../mongodb/data/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/diagnostic.data/metrics.interim" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,8 +82,16 @@
       <updated>1587663738442</updated>
       <workItem from="1587663739566" duration="42000" />
       <workItem from="1587663782030" duration="32000" />
-      <workItem from="1587663842760" duration="334000" />
+      <workItem from="1587663842760" duration="667000" />
     </task>
+    <task id="LOCAL-00001" summary="Node MongoDB Example 1">
+      <created>1587664447365</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587664447365</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +108,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Node MongoDB Example 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Node MongoDB Example 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587663810095">
